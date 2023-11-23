@@ -1,10 +1,17 @@
-import { Button } from '@chakra-ui/button'
+import { Container } from "@chakra-ui/react";
+import { Routes, Route } from "react-router-dom";
+import Header from "./components/Header";
+import UserPage from "./pages/UserPage";
+import PostPage from "./pages/PostPage";
 function App() {
-  
   return (
-    <>
-    <Button>Hello</Button>
-    </>
+    <Container maxW="620px">
+      <Header />
+      <Routes>
+        <Route path="/:username" element={<UserPage />} />
+        <Route path="/username/post/:pid" element={<PostPage />} />
+      </Routes>
+    </Container>
   );
 }
 
