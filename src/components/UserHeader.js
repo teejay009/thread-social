@@ -5,7 +5,7 @@ const UserHeader = () => {
   return <VStack gap={4} alignItems={"start"}>
     <Flex justifyContent={"space-between"} w={"full"}>
         <Box>
-            <Text >Aliu Mu</Text>
+            <Text >Aliu M</Text>
         </Box>
     </Flex>
   </VStack>
