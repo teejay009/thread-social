@@ -1,7 +1,7 @@
 import { Flex, VStack, Box, Text, Link } from "@chakra-ui/react"
 import { Avatar } from "@chakra-ui/react"
 import { BsInstagram } from "react-icons/bs";
-import {CgMore0} from "react-icons/cg";n
+import {CgMoreO} from "react-icons/cg";
 
 
 const UserHeader = () => {
@@ -41,7 +41,7 @@ const UserHeader = () => {
       </Flex>
       <Flex gap={2}>
         <Box> <BsInstagram size={24} cursor={"pointer"} /></Box>
-        <Box> <CgMore0 size={24} cursor={"pointer"} /></Box>
+        <Box> <CgMoreO size={24} cursor={"pointer"} /></Box>
       </Flex>
     </Flex>
   </VStack>
