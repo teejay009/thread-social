@@ -8,6 +8,21 @@ import { useToast } from '@chakra-ui/react'
 
 
 const UserHeader = () => {
+
+  const toast = useToast();
+
+  const copyURL = () => {
+    const currentURL = Window.location.href;
+    navigator.clipboard.writeText(currentURL).then(() => {
+      toast({
+        title: 'Account created.',
+        description: "We've created your account for you.",
+        status: 'success',
+        duration: 9000,
+        isClosable: true,
+      })
+    })
+  }
   return ( <VStack gap={4} alignItems={"start"}>
     <Flex justifyContent={"space-between"} w={"full"}>
         <Box>
