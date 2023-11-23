@@ -1,7 +1,7 @@
 import { Flex, VStack, Box, Text, Link } from "@chakra-ui/react"
 import { Avatar } from "@chakra-ui/react"
 import { BsInstagram } from "react-icons/bs";
-import C
+import {CgMore0} from "react-icons/cg";n
 
 
 const UserHeader = () => {
