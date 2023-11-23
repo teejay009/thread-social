@@ -2,6 +2,8 @@ import { Flex, VStack, Box, Text, Link } from "@chakra-ui/react"
 import { Avatar } from "@chakra-ui/react"
 import { BsInstagram } from "react-icons/bs";
 import {CgMoreO} from "react-icons/cg";
+import { Menu, MenuButton, MenuItem, MenuList } from "@chakra-ui/react";
+import { Portal } from "@chakra-ui/react";
 
 
 const UserHeader = () => {
@@ -41,7 +43,19 @@ const UserHeader = () => {
       </Flex>
       <Flex gap={2}>
         <Box className="icon-container"> <BsInstagram size={24} cursor={"pointer"} /></Box>
-        <Box className="icon-container"> <CgMoreO size={24} cursor={"pointer"} /></Box>
+        <Box className="icon-container">
+          <Menu>
+            <MenuButton>
+              <CgMoreO size={24}
+              cursor={"pointer"}/> 
+            </MenuButton>
+            <Portal>
+              <MenuList bg={"gray.dark"}>
+                <MenuItem bg={"gray.dark"}>Click here</MenuItem>
+              </MenuList>
+            </Portal>
+          </Menu>
+          </Box>
       </Flex>
     </Flex>
   </VStack>
