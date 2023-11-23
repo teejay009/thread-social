@@ -1,5 +1,6 @@
-import { Flex, VStack, Box, Text, Avatar } from "@chakra-ui/react"
+import { Flex, VStack, Box, Text, Link } from "@chakra-ui/react"
 import { Avatar } from "@chakra-ui/react"
+import { BsInstagram } from "react-icons/bs";
 
 
 const UserHeader = () => {
@@ -23,8 +24,8 @@ const UserHeader = () => {
           <Avatar
           name="Aliu Musa"
           src="/directorPro.jpeg"
-          size={"xl"} />
-          
+          size={"xl"} 
+          />
         </Box>
     </Flex>
 
@@ -32,7 +33,14 @@ const UserHeader = () => {
     <Flex w={"full"} justifyContent={"space-between"}>
       <Flex gap={2} alignItems={"center"}>
         <Text color={"gray.light"}>3.2k followers</Text>
-        <Box w={1} h={1} bg={"gray.light"} borderRadius={50%}></Box>
+        <Box
+         w={1} h={1} bg={"gray.light"} borderRadius="50%">
+        </Box>
+        <Link color={"gray.light"}>instagram.com</Link>
+      </Flex>
+      <Flex gap={2}>
+        <Box> <BsInstagram size={} /></Box>
+        <Box> <CgMore0 /></Box>
       </Flex>
     </Flex>
   </VStack>
