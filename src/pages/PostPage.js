@@ -46,7 +46,7 @@ const PostPage = () => {
         overflow={"hidden"}
         borderRadius={6}
         border={"1px solid"}
-        borderColor={"gray.light"}
+        borderColor={"gray"}
       >
         <Image src="/post1.png" width={"full"} />
       </Box>
