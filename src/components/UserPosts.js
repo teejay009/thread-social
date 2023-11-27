@@ -7,7 +7,8 @@ function UserPosts() {
     <link to={"/aliumusa/post/1"}>
         <Flex gap={3} mb={4} py={5}>
             <Flex>
-                <Avatar src='/post.png'  />
+                <Avatar src='/post.png' name='Mark Zukerberg'
+                size={"md"}  />
             </Flex>
 
         </Flex>
