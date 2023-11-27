@@ -19,7 +19,7 @@ import React from 'react'
            </Flex>
 
            <Flex alignItems={"center"} gap={4}>
-           <Text fontSize={{base: "xs", md:"sm"}} textAlign={"right"} w={36} color={"gray.light"}>2days</Text>
+           <Text fontSize={{base: "xs", md:"sm"}} textAlign={"right"} w={36} color={"gray"}>2days</Text>
             <BsThreeDots />
            </Flex>
         </Flex>
