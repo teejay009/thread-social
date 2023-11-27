@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { BsThreeDots } from "react-icons/bs";
 import Actions from "./Actions";
 
-const Comments = ({ Comments, createdAt, likes, usrename, userAvatar }) => {
+const Comments = ({ Comments, createdAt, likes, username, userAvatar }) => {
   const [liked, setLiked] = useState(false);
 
   return (
@@ -21,7 +21,7 @@ const Comments = ({ Comments, createdAt, likes, usrename, userAvatar }) => {
 
           <Flex gap={2} alignItems={"center"}>
             <Text fontSize={"sm"} color={"gray"}>
-              2 min ago
+              {createdAt}
             </Text>
             <BsThreeDots />
           </Flex>
