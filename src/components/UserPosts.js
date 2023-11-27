@@ -5,9 +5,9 @@ import { Link } from 'react-router-dom'
 function UserPosts() {
   return (
     <link to={"/aliumusa/post/1"}>
-        <Flex>
+        <Flex gap={3} mb={4} py={5}>
             <Flex>
-                <Avatar />
+                <Avatar src='/post.png'  />
             </Flex>
 
         </Flex>
