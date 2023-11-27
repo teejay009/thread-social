@@ -69,7 +69,26 @@ const PostPage = () => {
       </Flex>
 
       <Divider my={4} />
-      <Comments />
+      <Comments
+      likes={12}
+      usrename={"Ryan Florence"}
+      createdAt={"3 mins ago"}
+      Comments={"welcome back online darling"} />
+      <Comments
+      likes={12}
+      usrename={"Ryan Florence"}
+      createdAt={"3 mins ago"}
+      Comments={"welcome back online darling"} />
+      <Comments
+      likes={12}
+      usrename={"Ryan Florence"}
+      createdAt={"3 mins ago"}
+      Comments={"welcome back online darling"} />
+      <Comments
+      likes={12}
+      usrename={"Ryan Florence"}
+      createdAt={"3 mins ago"}
+      Comments={"welcome back online darling"} />
     </>
   );
 };
