@@ -26,8 +26,8 @@ const Comments = ({ Comments, createdAt, likes, username, userAvatar }) => {
             <BsThreeDots />
           </Flex>
         </Flex>
-        <Text>AT the attainment of independent in 1960</Text>
-        <Text>AT the attainment of independent in 1960</Text>
+        <Text>{Comments}</Text>
+    
         <Actions liked={liked} setLiked={setLiked} />
 
         <Text>{12 + (liked ? 1 : 0)} {likes} </Text>
