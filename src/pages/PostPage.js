@@ -78,7 +78,7 @@ const PostPage = () => {
       likes={12}
       usrename={"Ryan Florence"}
       createdAt={"3 mins ago"}
-      Comments={"welcome back online darling"} />
+      Comments={"salam alaykum warahmatulah wabarakatuhu"} />
       <Comments
       likes={12}
       usrename={"Ryan Florence"}
