@@ -31,7 +31,7 @@ import React from 'react'
             overflow={"hidden"}
             borderRadius={6}
             border={"1px solid"}
-            borderColor={"gray.light"}
+            borderColor={"gray"}
           >
             <Image src="/post1.png" w={"full"}/>
           </Box>
@@ -40,13 +40,13 @@ import React from 'react'
           </Flex>
           <Flex
             gap={2}
-            color={"gray.light"}
+            color={"gray"}
             fontSize={"sm"}
             alignItems={"center"}
           >
             <Text>300 Replies</Text>
             <Box w={0.5} h={0.5} borderRadius={"full"} bg={"green"}></Box>
-            <Text>200 likes</Text>
+            <Text>{21 +(liked ? 1 : 0)} likes</Text>
           </Flex>
         </>
 
