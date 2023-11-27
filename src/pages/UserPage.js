@@ -16,7 +16,7 @@ const UserPage = () => {
    <UserPosts userAvatar={"https://bit.ly/tioluwani-kolawole"}
   likes={100}
   replies={40}
-  postImage={"/post1.png"}
+  postImage={"/post3.png"}
   postTitle={"This is great"}
   
   />
@@ -24,7 +24,7 @@ const UserPage = () => {
 <UserPosts userAvatar={"https://bit.ly/tioluwani-kolawole"}
   likes={80}
   replies={20}
-  postImage={"/post1.png"}
+  postImage={"/post2.png"}
   postTitle={"wow! awesome"} 
   
   />

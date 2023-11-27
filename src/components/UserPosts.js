@@ -61,7 +61,7 @@ const UserPosts = ({ likes, replies, postTitle, postImage }) => {
             border={"1px solid"}
             borderColor={"gray.light"}
           >
-            <Image src="/aliumusa.jpeg" />
+            <Image src={postImage} />
           </Box>
           <Flex>
             <Actions liked={liked} setLiked={setLiked} />
