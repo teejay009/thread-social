@@ -16,7 +16,7 @@ const Comments = ({ Comments, createdAt, likes, usrename, userAvatar }) => {
       <Flex flexDir={"column"} gap={1} w={"full"}>
         <Flex justifyContent={"space-between"} alignItems={"center"} w={"full"}>
           <Text fontSize={"sm"} fontWeight={"bold"}>
-            JohnDoe
+            JohnDoe, wale
           </Text>
 
           <Flex gap={2} alignItems={"center"}>
