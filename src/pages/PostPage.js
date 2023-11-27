@@ -76,17 +76,17 @@ const PostPage = () => {
       Comments={"welcome back online darling"} />
       <Comments
       likes={12}
-      usrename={"Ryan Florence"}
+      usrename={"wasiu ayinde"}
       createdAt={"3 mins ago"}
       Comments={"salam alaykum warahmatulah wabarakatuhu"} />
       <Comments
       likes={12}
-      usrename={"Ryan Florence"}
+      usrename={"sikiru Alamu"}
       createdAt={"3 mins ago"}
       Comments={"welcome back online darling"} />
       <Comments
       likes={12}
-      usrename={"Ryan Florence"}
+      usrename={"Mufty Menk"}
       createdAt={"3 mins ago"}
       Comments={"welcome back online darling"} />
     </>
