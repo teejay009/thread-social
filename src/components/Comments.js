@@ -9,7 +9,7 @@ const Comments = ({ Comments, createdAt, likes, username, userAvatar }) => {
   return (
     <Flex gap={4} my={2} py={2} w={"full"}>
       <Avatar
-        src='"https://bit.ly/ryan-florence'
+        src={"userAvatar"}
         size={"sm"}
         name="Ryan Florence"
       />
