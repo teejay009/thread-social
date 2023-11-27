@@ -11,4 +11,7 @@ function UserPosts() {
   )
 };
 
-export default UsrPosts
+export default UserPosts
+
+
+
