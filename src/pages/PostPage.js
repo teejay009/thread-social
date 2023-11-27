@@ -63,7 +63,7 @@ const PostPage = () => {
       <Flex justifyContent={"space-between"}>
         <Flex alignItems={"center"}>
           <Text fontSize={"2x1"}>👍</Text>
-          <Text color={"grey"}>Get the App to like, reply and post</Text>
+          <Text color={"gray"}>Get the App to like, reply and post</Text>
         </Flex>
         <Button>Get</Button>
       </Flex>
