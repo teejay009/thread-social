@@ -1,12 +1,13 @@
-import UserHeader from "../components/UserHeader"
+import UserHeader from "../components/UserHeader";
+import UserPosts from "../components/UserPosts";
 
 const UserPage = () => {
   return (
     <>
-    <UserHeader />
-      
+      <UserHeader />
+      <UserPosts />
     </>
-  )
-}
+  );
+};
 
-export default UserPage
+export default UserPage;
