@@ -71,22 +71,22 @@ const PostPage = () => {
       <Divider my={4} />
       <Comments
       likes={12}
-      usrename={"Ryan Florence"}
+      username={"Ryan Florence"}
       createdAt={"3 mins ago"}
       Comments={"welcome back online darling"} />
       <Comments
       likes={12}
-      usrename={"wasiu ayinde"}
+      username={"wasiu ayinde"}
       createdAt={"3 mins ago"}
       Comments={"salam alaykum warahmatulah wabarakatuhu"} />
       <Comments
       likes={12}
-      usrename={"sikiru Alamu"}
+      username={"sikiru Alamu"}
       createdAt={"3 mins ago"}
       Comments={"welcome back online darling"} />
       <Comments
       likes={12}
-      usrename={"Mufty Menk"}
+      username={"Mufty Menk"}
       createdAt={"3 mins ago"}
       Comments={"welcome back online darling"} />
     </>
